@@ -6,7 +6,7 @@ Answer the following questions in the provided markdown file before turning in t
 
 - What data types can object properties hold?
 
--The property or key is always a string(name). The value that is assigned to the property can be any datatype. Together they form a key-value pair.
+-The value that is assigned to the property can be any datatype.
 
 - Describe the syntax (structure) of object-literals in JavaScript.
 
