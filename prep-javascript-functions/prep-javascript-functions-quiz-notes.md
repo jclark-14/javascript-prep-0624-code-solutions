@@ -15,7 +15,7 @@ Answer the following questions in the provided markdown file before turning in t
 - How do you call a function?
 
 -with function name followed by arguments inside ()
-functionName();
+functionName(argument1, argument2);
 
 - What is the difference between a parameter and an argument?
 
