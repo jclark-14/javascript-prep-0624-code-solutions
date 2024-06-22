@@ -57,7 +57,7 @@ const fullName = getFullName('Jody', 'Clark');
 console.log('getFullName Exercise:', fullName);
 
 function cube(number) {
-  const calculateCube = number * 5;
+  const calculateCube = number * number * number;
   return calculateCube;
 }
 const cubed = cube(8);
