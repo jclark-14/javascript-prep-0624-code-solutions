@@ -18,47 +18,47 @@ function getGreeting(name) {
   const greeting = 'Hello' + ' ' + name + ',' + ' How are you today?';
   return greeting;
 }
-const greetJody = getGreeting('Jody');
-console.log('getGreeting Exercise:', greetJody);
+const greeting = getGreeting('Jody');
+console.log('getGreeting Exercise:', greeting);
 
 function addAndMultiplyBy5(num1, num2) {
   const sumTimesFive = (num1 + num2) * 5;
   return sumTimesFive;
 }
-const product1 = addAndMultiplyBy5(4, 5);
-console.log('addAndMultiplyBy5 Exercise:', product1);
+const sumTimesFive = addAndMultiplyBy5(4, 5);
+console.log('addAndMultiplyBy5 Exercise:', sumTimesFive);
 
 function multiplyAndDivideBy5(num1, num2) {
   const productDividedByFive = (num1 * num2) / 5;
   return productDividedByFive;
 }
-const product2 = multiplyAndDivideBy5(10, 6);
-console.log('multiplyAndDivideBy5 Exercise:', product2);
+const productDividedByFive = multiplyAndDivideBy5(10, 6);
+console.log('multiplyAndDivideBy5 Exercise:', productDividedByFive);
 
 function subtractTwoNumbers(num1, num2) {
   const differenceOfTwoNumbers = num1 - num2;
   return differenceOfTwoNumbers;
 }
-const difference = subtractTwoNumbers(20, 9);
-console.log('subtractTwoNumbers Exercise:', difference);
+const differenceOfTwoNumbers = subtractTwoNumbers(20, 9);
+console.log('subtractTwoNumbers Exercise:', differenceOfTwoNumbers);
 
 function getCircleCircumference(radius) {
-  const calculateCircumference = 2 * radius * 3.14;
+  const calculateCircumference = 2 * Math.PI * radius;
   return calculateCircumference;
 }
-const circumference = getCircleCircumference(7);
-console.log('getCircleCircumference Exercise:', circumference);
+const calculateCircumference = getCircleCircumference(7);
+console.log('getCircleCircumference Exercise:', calculateCircumference);
 
 function getFullName(firstName, lastName) {
-  const calculateFullName = firstName + ' ' + lastName;
-  return calculateFullName;
+  const fullName = firstName + ' ' + lastName;
+  return fullName;
 }
 const fullName = getFullName('Jody', 'Clark');
 console.log('getFullName Exercise:', fullName);
 
 function cube(number) {
-  const calculateCube = number * number * number;
-  return calculateCube;
+  const cubed = number * number * number;
+  return cubed;
 }
 const cubed = cube(8);
 console.log('cube Exercise:', cubed);
